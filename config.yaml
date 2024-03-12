@@ -1,0 +1,116 @@
+mh_config:
+  dump_folder: "1Koi8lqAyjwPrQaULSc4n_yfwig9NEjCF"
+  template_file_id: "1gU1lhZwYLIbBad4w5fnM_FoiWmqFOtZkykTLrWyVKCc"
+  ac_acceptance_sample_threshold: 400
+  calculation_score: "vn"
+  alliance:
+    NDA:
+      - "BJP"
+      - "Shiv Sena (Eknath Shinde)"
+      - "NCP (Ajit Pawar faction)"
+    INDI:
+      - "INC"
+      - "Shiv Sena (Uddhav Balasaheb Thackeray)"
+      - "NCP (Sharad Pawar faction)"
+      - "VBA"
+    AIMIM:
+      - "AIMIM"
+  election_round: 1
+  election_cycle: "MH_2024"
+  caste_category_needed:
+    - "GEN"
+    - "OBC"
+    - "SC"
+    - "ST"
+    - "Muslim"
+    - "Christian"
+  ac_wise_top_candidate_needed: 4
+  pc_reports:
+    - 'Akola'
+
+ka_config:
+  dump_folder: "1Koi8lqAyjwPrQaULSc4n_yfwig9NEjCF"
+  template_file_id: "1ppAt4NHmcg3vLg6U80bqdbuO8lPT8u7N9IJtnBtf_t8"
+  ac_acceptance_sample_threshold: 400
+  calculation_score: "vn_average"
+  alliance:
+    NDA:
+      - "BJP"
+      - "JD(S)"
+    INDI:
+      - "INC"
+  election_round: '1'
+  election_cycle: "KA_2024"
+  caste_category_needed:
+    - "GEN"
+    - "OBC"
+    - "SC"
+    - "ST"
+    - "Muslim"
+    - "Christian"
+  ac_wise_top_candidate_needed: 3
+  pc_reports:
+    - "Bengaluru Rural"
+
+pb_config:
+  dump_folder: "1Koi8lqAyjwPrQaULSc4n_yfwig9NEjCF"
+  template_file_id: "17_yH7-21GzwMzDs6ZARtcPKGJGQnf6wJBmumnkDm0Eg"
+  ac_acceptance_sample_threshold: 400
+  calculation_score: "vn"
+  alliance:
+    NDA:
+      - "BJP"
+    INDI:
+      - "INC"
+      - "AAAP"
+    BSP:
+      - 'BSP'
+    SAD:
+      - "SAD"
+  election_round: '1'
+  election_cycle: "PB_2024"
+  caste_category_needed:
+    - "GEN"
+    - "OBC"
+    - "SC"
+    - "ST"
+    - "Muslim"
+    - "Christians"
+  ac_wise_top_candidate_needed: 5
+  pc_reports:
+    - "Ludhiana"
+
+tn_config:
+  dump_folder: "1wfMZvl6QCnSPqVnmS3nQVDi_gIqFw1_h"
+  template_file_id: "1CVNaa2DJVgmGHNO0mMMQaowJXGZ35MW2-SvcHkQ0XlY"
+  ac_acceptance_sample_threshold: 400
+  calculation_score: "vn"
+  alliance:
+    NDA:
+      - "BJP"
+      - "AMMK"
+    INDI:
+      - "INC"
+      - 'DMK'
+      - 'MDMK'
+      - 'VCK'
+    AIADMK:
+      - 'AIADMK'
+    DMDK:
+      - "DMDK"
+    NTK:
+      - "NTK"
+  election_round: '1'
+  election_cycle: "TN_2024"
+  caste_category_needed:
+    - "GEN"
+    - "OBC"
+    - "SC"
+    - "ST"
+    - "Muslim"
+    - "Christian"
+  ac_wise_top_candidate_needed: 5
+  pc_reports:
+    - "Virudhunagar"
+    - "Ramanathapuram"
+    - "Madurai"
