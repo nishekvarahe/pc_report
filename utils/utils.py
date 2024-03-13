@@ -32,8 +32,9 @@ def get_vote_share(on=None, df=None, which_alliance=None, which_criteria=None):
 	return vote_share.loc[inds]
 
 
-def get_config(state_code):
+def get_config():
 	with open('config.yaml', 'r') as file:
 		config = yaml.safe_load(file)
+	state_code = config['state_codes']
 	state_config = config[f'{state_code}_config']
-	return state_config
+	return state_code.upper(), state_config
