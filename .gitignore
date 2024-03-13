@@ -13,6 +13,7 @@ develop-eggs/
 dist/
 downloads/
 api_keys/
+dump_data/
 eggs/
 .eggs/
 lib/
@@ -125,6 +126,7 @@ celerybeat.pid
 .venv
 env/
 venv/
+dump_data/
 ENV/
 env.bak/
 venv.bak/

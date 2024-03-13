@@ -4,7 +4,7 @@ from generate_report import PCReport
 from utils.utils import get_config
 
 
-state_code = 'MH'
+state_code = 'JH'
 config = get_config(state_code=state_code.lower())
 
 if not config:

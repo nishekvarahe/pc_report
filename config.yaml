@@ -1,5 +1,5 @@
 mh_config:
-  dump_folder: "1Koi8lqAyjwPrQaULSc4n_yfwig9NEjCF"
+  dump_folder: "1VvRuy2hQ7XOWJe6AMX77s8Ry20R1WBai"
   template_file_id: "1gU1lhZwYLIbBad4w5fnM_FoiWmqFOtZkykTLrWyVKCc"
   ac_acceptance_sample_threshold: 400
   calculation_score: "vn"
@@ -26,7 +26,6 @@ mh_config:
     - "Christian"
   ac_wise_top_candidate_needed: 4
   pc_reports:
-    - 'Akola'
 
 ka_config:
   dump_folder: "1Koi8lqAyjwPrQaULSc4n_yfwig9NEjCF"
@@ -114,3 +113,28 @@ tn_config:
     - "Virudhunagar"
     - "Ramanathapuram"
     - "Madurai"
+
+jh_config:
+  dump_folder: "1UljfuQrbnppQZiEyH9uvs-sOl4zAiEwh"
+  template_file_id: "1QmiMf2KmkXvJhRubDFW5LR2fTAluM2QMhPRCYCssb78"
+  ac_acceptance_sample_threshold: 400
+  calculation_score: "vn_ge"
+  alliance:
+    NDA:
+      - "BJP"
+      - "AJSU"
+    INDI:
+      - "INC"
+      - 'JMM'
+  election_round: '1'
+  election_cycle: "JH_2024"
+  caste_category_needed:
+    - "GEN"
+    - "OBC"
+    - "SC"
+    - "ST"
+    - "Muslim"
+    - "Christian"
+  ac_wise_top_candidate_needed: 3
+  pc_reports:
+    - "Khunti"

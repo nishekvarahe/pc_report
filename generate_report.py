@@ -96,6 +96,7 @@ class PCReport:
 		survey_samples = survey_samples[survey_samples['ac_no'].isin(qualified_acs)]
 		survey_samples = survey_samples.merge(self.psql_tables.ac_pc_mapping[['ac_no', 'pc_name']], on='ac_no',
 											  how='left')
+		survey_samples.to_excel(f'./dump_data/{self.state_code}_survey_samples.xlsx', index=False)
 		survey_samples['future_vote_pref_ge'] = survey_samples['future_vote_pref_ge'].apply(
 			lambda x: x if x in self.main_parties else 'Others')
 		survey_samples['cand_pref_ques_ge'] = survey_samples['cand_pref_ques_ge'].fillna('')
