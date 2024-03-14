@@ -34,7 +34,7 @@ def get_vote_share(on=None, df=None, which_alliance=None, which_criteria=None):
 
 
 def get_config():
-	with open('config.yaml', 'r') as file:
+	with open('./configs/config.yaml', 'r') as file:
 		config = yaml.safe_load(file)
 	state_code = config['state_code']
 	state_config = config[f'{state_code}_config']

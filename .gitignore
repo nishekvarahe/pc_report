@@ -14,6 +14,7 @@ dist/
 downloads/
 api_keys/
 dump_data/
+configs/
 eggs/
 .eggs/
 lib/
