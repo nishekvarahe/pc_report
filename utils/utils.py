@@ -1,4 +1,5 @@
 import yaml
+from pydrive2.auth import GoogleAuth
 
 
 def add_allaince(df=None, on=None, alliance=None):
@@ -35,6 +36,11 @@ def get_vote_share(on=None, df=None, which_alliance=None, which_criteria=None):
 def get_config():
 	with open('config.yaml', 'r') as file:
 		config = yaml.safe_load(file)
-	state_code = config['state_codes']
+	state_code = config['state_code']
 	state_config = config[f'{state_code}_config']
 	return state_code.upper(), state_config
+
+
+def generate_oauth_credential_file():
+	gauth = GoogleAuth(settings_file=r"./api_keys/drive/settings.yaml")
+	gauth.LocalWebserverAuth()

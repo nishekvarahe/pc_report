@@ -1,10 +1,13 @@
+import os.path
 import sys
 
 from generate_report import PCReport
-from utils.utils import get_config
+from utils.utils import get_config, generate_oauth_credential_file
+
+if not os.path.exists('./api_keys/drive/credentials.json'):
+	generate_oauth_credential_file()
 
 state_code, config = get_config()
-
 if not config:
 	print("Pass the correct statecode or add config for the same in config.yaml file")
 	sys.exit(0)
